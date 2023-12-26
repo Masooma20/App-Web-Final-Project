@@ -1,0 +1,70 @@
+body {
+    background-color: aliceblue;
+}
+
+#title, #description {
+    text-align: center;
+
+}
+.second {
+    background-color: rgb(197, 217, 221);
+    color: black;
+    font-size: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+label {
+    display: block;
+}
+.inline-label {
+    display: inline;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    background: rgb(86, 166, 197);
+    border-radius:  25px;
+    border-color:  rgb(86, 166, 197);
+    width: 80px;
+    height: 30px;
+}
+textarea {
+    width: 100%;
+    height: 70px;
+}
+
+input[type="age"], select[id="idea"]{
+    width: 100%;
+    height: 40px
+}
+.container {
+    background-color: rgb(65, 115, 223);
+    width:99%;
+    height: 50px;
+    justify-content: end;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 20px;
+    padding-top: 10px;
+    text-align: right;
+
+}
+
+
+
